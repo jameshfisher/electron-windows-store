@@ -32,7 +32,7 @@ program
   .option('--package-description <description>', 'Description of the package')
   .option('--package-background-color <color>', 'Background color for the app icon (example: #464646)')
   .option('-e, --package-executable <executablePath>', 'Path to the package executable')
-  .option('-a, --assets <assetsPath>', 'Path to the visual assets for the appx')
+  .option('-a, --assets <assets>', 'Path to the visual assets for the appx')
   .option('-m, --manifest <manifestPath>', 'Path to a manifest, if you want to overwrite the default one')
   .option('-d, --deploy <true|false>', 'Should the app be deployed after creation?')
   .option('--publisher <publisher>', 'Publisher to use (example: CN=developmentca)')
